@@ -1,6 +1,8 @@
 .header
 {
     display:flex;
+    justify-content: space-around;
+    align-items:center;
 }
 .logo, .search, .host{
     flex:none;
@@ -15,18 +17,28 @@
     display: flex;
     width: 400px;
     padding: 14px 0;
-    margin-left: 10px;
+    margin: 0 auto;
 }
-.search .search_input{
+.search_input{
     border:none;
-    padding:20px;
-    margin:4px 2px;
-    border-radius: 12px;
+    color: white;
+    padding:8px;
+   
+    font-size: 16px;
+    margin:2px 2px;
+    border-radius: 38px;
+    box-shadow: 1px 1px 1px 1px gray
 
 }
-.search_button{
-    width: 37px;
-		border: 0;
+
+.left_btn{
+    border:none;
+    color: white;
+    padding:8px;
+    margin:2px 2px;
+    border-radius: 38px;
+    box-shadow: 1px 1px 1px 1px gray;
+    
 
 }
 input{
