@@ -1,0 +1,8 @@
+#top
+{
+    text-align: center;
+    max-width:1400px;
+    margin:0 auto;
+    background-color: lightgray;
+    background-image:url('./Image/headerImage.jpg') no-repeat;
+}
