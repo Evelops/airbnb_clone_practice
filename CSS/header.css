@@ -1,8 +1,37 @@
-.search
+.header
 {
-    border-radius: 25px;
-    padding: 18px;
-    width: 220px;
-    height: 8px;
-    
+    display:flex;
+}
+.logo, .search, .host{
+    flex:none;
+}
+.host{
+    margin-left:auto;
+}
+.logo, .host{
+    padding:20px 30px;
+}
+.search {
+    display: flex;
+    width: 400px;
+    padding: 14px 0;
+    margin-left: 10px;
+}
+.search .search_input{
+    border:none;
+    padding:20px;
+    margin:4px 2px;
+    border-radius: 12px;
+
+}
+.search_button{
+    width: 37px;
+		border: 0;
+
+}
+input{
+    flex: 1;
+    width: 322px;
+    height: 37px;
+    background-color: white;
 }
