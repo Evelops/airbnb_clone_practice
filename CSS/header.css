@@ -7,42 +7,18 @@
     padding: 0px 24px;
     box-shadow: rgba(0,0,0,0.08) 0px 1px 12px;
 }
-.logo, .search, .host{
+.logo,.left_nav{
     flex:none;
-}
-.host{
-    margin-left:auto;
-}
-.logo, .host{
     padding:20px 30px;
 }
-.search {
-    display: flex;
-    width: 400px;
-    padding: 14px 0;
-    margin: 0 auto;
+.left_nav{
+    margin-left:auto;
 }
-.search_input{
+.header_host{
+    border-radius: 23px;
     border:none;
-    color: white;
-    padding:8px;
-   
-    font-size: 16px;
-    margin:2px 2px;
-    border-radius: 38px;
-    box-shadow: 1px 1px 1px 1px gray
-
-}
-
-.left_btn{
-    border:none;
-    color: white;
-    padding:8px;
-    margin:2px 2px;
-    border-radius: 38px;
-    box-shadow: 1px 1px 1px 1px gray;
-    
-
+    outline:none;
+    background-color: white;
 }
 input{
     flex: 1;
